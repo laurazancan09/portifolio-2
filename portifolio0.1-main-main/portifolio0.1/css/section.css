@@ -1,0 +1,31 @@
+#img_p {
+    width: 37vw;       /*Largura da imaguem */
+    height: auto;       /*Porporção da altura automaticamente*/
+    position: absolute;     /*Posicionamento absoluto em relação ao seu container*/
+    z-index: -1;        /* Coloca a imagem atrás de outros elementos */
+    top: 6vw;           /* Posiciona no topo da viewport */
+    left: 17vw;        /* Posiciona à esquerda da viewport */
+    border-radius: 65% 35% 68% 32% / 43% 65% 35% 57% ;
+    
+}
+#nome{
+    font-size: 8vw;
+    position: absolute;
+    top: 17vw;
+    right: 18vw;
+    margin: 0;
+}
+#sobrenome{
+    font-size: 7vw;
+    position: absolute;
+    top: 24vw;
+    right: 12vw;
+    margin: 0;
+}
+#sobre_mim{
+    width: 44vw;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 28vw;
+    right: 3vw;
+}

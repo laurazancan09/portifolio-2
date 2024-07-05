@@ -1,0 +1,79 @@
+#cards_projetos {
+    width: 100vw; /* Define a largura do container #cards_projetos como 100% da largura da viewport */
+    display: grid; /* Aplica o layout CSS Grid ao container #cards_projetos */
+    justify-content: space-around; /* Alinha as colunas da grid com espaço uniformemente distribuído em torno dos itens */
+    grid-template-columns: 20vw 20vw 20vw 20vw; /* Define quatro colunas na grid, cada uma com largura de 19vw */
+    grid-template-rows: 15vw 15vw 15vw; /* Define duas linhas na grid, cada uma com altura de 11vw */
+}
+
+.card {
+    width: 20vw; /* Define a largura de cada card como 19vw */
+    height: 10vw; /* Define a altura de cada card como 10vw */
+    background-color: rgb(255, 255, 255); /* Define a cor de fundo dos cards como vermelho */
+    border: 5px solid #ffb2b2; /* Adiciona uma borda sólida de 3px com cor #ffb2b2 (rosa claro) aos cards */
+    margin-top: 30vw; /* Define uma margem superior de 25vw para os cards, usando a largura da viewport como unidade */
+}
+
+#cards_projetos{
+    width: 90vw;
+    margin: 0 5vw;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw;
+    grid-template-rows: 20vw 20vw 20vw 20vw 20vw;
+}
+.card{
+    width: 15vw;
+    height: 18vw;
+    background-color: white;
+    box-shadow: 0.1vw 0.2vw 0.3vw rgba(35, 35, 35, 0.5);
+    border-radius: 1.5vw;
+    overflow: hidden;
+
+    transition: all 0.2s ease-in-out;
+    transform-origin: center;
+}
+
+.card div{
+    height: 25vw;
+    width: 15vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: all 0.2s ease-in-out;
+}
+.card img{
+    height: 6vw;
+    transition: all 0.2s ease-in-out;
+}
+.card h3{
+    font-family: 'fontS';
+    font-size: 2vw;
+    margin: 0;
+}
+.card p{
+    text-align: center;
+    font-family: 'fontP';
+    font-size: 0.8vw;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+.card:hover div{
+    height: 16vw;
+}
+
+.cardAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:dashed 2px #353333;
+}
+.iconeMais{
+    font-size: 4vw;
+    color: #353333;
+}

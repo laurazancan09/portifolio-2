@@ -1,0 +1,24 @@
+@import url("header.css");
+@import url("infos_home.css");
+@import url("footer.css");
+@import url("fonts.css");
+
+@font-face {
+    font-family: 'font';
+    src: url(/assets/fonts/Caveat-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #330202;
+    overflow-y: hidden;
+    overflow: flex;
+    margin: 0;
+
+    font-family: 'font';
+    color: rgb(255, 255, 255);
+    background-image: url();
+    background-size: 100vw;
+        
+    
+}
+

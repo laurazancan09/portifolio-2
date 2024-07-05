@@ -1,0 +1,37 @@
+footer{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 1vw;
+}
+footer button{
+    border: 0;
+    background-color: transparent;
+    justify-content: center;
+    
+}
+footer i{
+    font-size: 3vw;
+    color: rgb(121, 31, 31);
+    margin: 0.3vw 0.3vw;
+}
+
+@media (max-width: 425px){
+    footer{
+        height: 7%;
+        justify-content: center;
+        padding: 0;
+    }
+    .btn_footer{
+        margin: 0 3%;
+    }
+    footer i{
+        font-size: 10vw;
+    }
+    .btn_footer i:hover{
+        font-size: 12vw;
+    }
+}
